@@ -3,35 +3,47 @@
 <head>
 	<title>Matt Bacher's Portfolio | Contact</title>
 
-	<!--<link rel="stylesheet" type="text/css" href="style.css">!-->
+	<!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">!-->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 	<header>
 		<h1>Matt Bacher</h1>
+
 		<nav>		
-			<a href="#">About</a>
-			<a href="#">Portfolio</a>
-			<a href="#">Contact</a>			
+			<a class="navBar" href="index.html">About</a>
+			<a class="navBar" href="portfolio.html">Portfolio</a>
+			<a class="navBar" href="contact.html">Contact</a>			
 		</nav>
+
 	</header>
-	<div>
+
+	<aside>
+		<h3>Connect with Me</h3>
+		<a href="https://stackoverflow.com/users/8286429/m-bacher" target="_blank"><img class="myLinks" src="assets/images/stackoverflow.png"></a>
+		<a href="https://github.com/redwinger" target="_blank"><img class="myLinks" src="assets/images/github.png"></a>
+		<a href="https://www.linkedin.com/in/matt-bacher-a28539145/?trk=uno-choose-ge-no-intent&dl=no" target="_blank"><img class="myLinks" src="assets/images/linkedin.png"></a>	
+	</aside>
+	
+	<div class="mainContent">
 		<h2>Contact</h2>
 		<form action="#">
 			Name <br>
-			<input type="text" name="name">
+			<input class="form"  type="text" name="name">
 			<br>
 			Email <br>
-			<input type="text" name="Email">
+			<input class="form" type="text" name="Email">
 			<br>
 			Message <br>
-			<textarea name="Message" rows="15" cols="30"></textarea>
+			<textarea class="form" name="Message" rows="15" cols="30"></textarea> <br>
+			<br>
+			<button class="form">Submit</button>
 		</form>
 	</div>
 	<footer>
-		<p>
-			©Copyright 2017 Matt Bacher
-		</p>
+			&copy; Copyright 2017 Matt Bacher
 	</footer>
 </body>
 </html>

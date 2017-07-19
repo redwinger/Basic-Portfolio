@@ -1,0 +1,151 @@
+* {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+body {
+width: 960px;
+background-image: url("../images/wild_flowers.png");
+margin: 0px;
+
+}
+
+.background {
+	background-image: url("../images/wild_flowers.png");
+}
+.mainContent {
+	padding: 25px;
+  	margin-left: 30px;
+  	margin-top: 30px;
+  	color: #333;
+  	background: #fff;
+  	width: 594px;
+  	overflow: auto;
+  	float: left;
+  	border: 3px solid #CCC;
+}
+
+.aboutme {
+	background: #fff;
+}
+
+.form{
+	background: #f7fffd;
+	border: 2px solid #30d1ae;
+	line-height: 10px;
+}
+
+.navBar {
+	background: #fff;
+	text-decoration: none;
+	color: #777;
+	text-align: center;
+	letter-spacing: 2px;
+	overflow: hidden;
+}
+
+.myLinks {
+	width: 15%;
+	height: 15%;
+	margin-bottom: 5px;
+}
+
+.imageContainer {
+	display: inline-block;
+	width: 210px;
+	height: 157px;
+	position: relative;
+	margin-bottom: 30px;
+	margin-right: 25px;
+	margin-left: 25px;	
+}
+
+.projectImgs {
+	width: 100%;
+	height: 100%;
+}
+
+.banner {
+	position: absolute;
+	top: 100px;
+	background: #4aaaa5;
+	padding: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+#me {
+	float: left;
+	width: 183px; 
+	height: 259px;
+	margin-right: 18px;
+}
+
+form {
+	background: #fff;
+}
+
+aside {
+	float: right;
+	border: 2px solid #ccc;
+	background: #fff;
+	width: 266px;
+	overflow-wrap: all;
+	margin-left: 15px;
+	margin-top: 35px;
+	color: #4aaaa5;
+	text-align: center;
+
+}
+header{
+	background: #fff;
+	overflow: hidden;
+	margin: 0px;
+	height: 120px;
+
+}
+
+footer {
+	text-align: center;
+	background: #666666;
+	font-size: 12px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	padding: 20px;
+	border-top: 7px solid #4aaaa5;
+}
+
+h1 {
+	margin: 0px;
+	padding: 25px 15px;
+	background: #4aaaa5;
+	text-align: center;
+	width: 23%;
+	overflow: auto;
+	position: relative;
+	top: 0px;
+	right: -50px;
+	color: #fff;
+}
+
+nav {
+	float: right;
+	background: #fff;
+	position: relative;
+	right: 175px;
+	bottom: 55px;
+	word-spacing: 10px;
+}
+
+h2 {
+	background: #ffffff;
+	border-bottom: 5px solid #e0e2e2;
+}
+
+h3 {
+	border-bottom: 3px solid #ccc;
+}
+
+h1, h2, h3, h4 {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
